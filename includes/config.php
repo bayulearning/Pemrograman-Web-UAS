@@ -4,7 +4,7 @@ $base_url = 'http://localhost/kuliner/';
 $servername = "localhost"; 
 $username = "root"; 
 $password = ""; 
-$dbname = "tb_kuliner"; 
+$dbname = "db_kuliner"; 
 // Create connection 
 $conn = new mysqli($servername, $username, $password, $dbname); 
 // Check connection 
