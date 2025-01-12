@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 12, 2025 at 08:46 AM
+-- Generation Time: Jan 12, 2025 at 09:20 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -32,14 +32,14 @@ CREATE TABLE `tbl_makanan` (
   `nama_makanan` varchar(100) NOT NULL,
   `daerah_makanan` varchar(100) NOT NULL,
   `foto_makanan` blob DEFAULT NULL,
-  `keterangan` varchar(255) DEFAULT NULL
+  `Keterangan` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_makanan`
 --
 
-INSERT INTO `tbl_makanan` (`id_makanan`, `nama_makanan`, `daerah_makanan`, `foto_makanan`, `keterangan`) VALUES
+INSERT INTO `tbl_makanan` (`id_makanan`, `nama_makanan`, `daerah_makanan`, `foto_makanan`, `Keterangan`) VALUES
 (2, 'sayur gabus pucung', 'bekasi utara', NULL, NULL),
 (3, 'ikan hias', 'buwek', NULL, NULL);
 
@@ -54,14 +54,14 @@ CREATE TABLE `tbl_minuman` (
   `nama_minuman` varchar(100) NOT NULL,
   `daerah_minuman` varchar(100) NOT NULL,
   `foto_minuman` blob DEFAULT NULL,
-  `keterangan` varchar(255) DEFAULT NULL
+  `Keterangan` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_minuman`
 --
 
-INSERT INTO `tbl_minuman` (`id_minuman`, `nama_minuman`, `daerah_minuman`, `foto_minuman`, `keterangan`) VALUES
+INSERT INTO `tbl_minuman` (`id_minuman`, `nama_minuman`, `daerah_minuman`, `foto_minuman`, `Keterangan`) VALUES
 (2, 'Es Doger', 'Tambun', NULL, NULL);
 
 --
